@@ -4,14 +4,11 @@ body{
   margin:0;
   font-family: Arial, sans-serif;
   background:
-    repeating-linear-gradient(
-      45deg,
-      rgba(255,255,255,0.03),
-      rgba(255,255,255,0.03) 10px,
-      rgba(0,0,0,0.03) 10px,
-      rgba(0,0,0,0.03) 20px
-    ),
-    #1f6f5b;
+    radial-gradient(circle at 10% 20%, #fde68a 0%, transparent 40%),
+    radial-gradient(circle at 80% 10%, #bfdbfe 0%, transparent 35%),
+    radial-gradient(circle at 30% 80%, #bbf7d0 0%, transparent 40%),
+    radial-gradient(circle at 90% 70%, #fecaca 0%, transparent 35%),
+    linear-gradient(180deg, #f8fafc, #e0f2fe);
   color:#1f2937;
 }
 
